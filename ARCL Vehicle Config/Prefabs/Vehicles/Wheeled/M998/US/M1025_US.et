@@ -1,0 +1,67 @@
+Vehicle : "{33AB44A084BAA0CD}Prefabs/Vehicles/Wheeled/M998/M1025_base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{69DC09A9CF06E273}" {
+     SourceMaterial "Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body"
+     AssignedMaterial "{0C94D7D680DD4C18}Assets/Vehicles/Wheeled/M998/HMMWV_Body_TanUS.emat"
+    }
+    MaterialAssignClass "{69DC09A9CF06E261}" {
+     SourceMaterial "HMMWV_Body_Int_1C7B4ACE653D9BD1"
+     AssignedMaterial "{44092DD81CA06166}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Int_Tan_US.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "Tan M1025 (Unarmed)"
+    m_Image "{529CFCB8B77478F7}UI/EditorPreviews/Vehicles/Wheeled/M1114/Unarmed/M1114_Early_Tan.edds"
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EF07CF263360EC1}" {
+      m_BudgetType RANK_PRIVATE
+      m_Value 1
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    SCR_WheelSlotInfo Wheel_L01 {
+     Prefab "{01CB4C112B526173}Prefabs/Vehicles/Wheeled/M998/VehParts/Wheels/M998_wheel_01_Tan.et"
+    }
+    SCR_WheelSlotInfo Wheel_L02 {
+     Prefab "{01CB4C112B526173}Prefabs/Vehicles/Wheeled/M998/VehParts/Wheels/M998_wheel_01_Tan.et"
+    }
+    SCR_WheelSlotInfo Wheel_R01 {
+     Prefab "{01CB4C112B526173}Prefabs/Vehicles/Wheeled/M998/VehParts/Wheels/M998_wheel_01_Tan.et"
+    }
+    SCR_WheelSlotInfo Wheel_R02 {
+     Prefab "{01CB4C112B526173}Prefabs/Vehicles/Wheeled/M998/VehParts/Wheels/M998_wheel_01_Tan.et"
+    }
+    RegisteringComponentSlotInfo Tailgate {
+     Prefab "{50A0D52CC4161956}Prefabs/Vehicles/Wheeled/M998/VehParts/M1114_Tailgate_Tan.et"
+    }
+    RegisteringComponentSlotInfo SupplyStorage_01 {
+     Enabled 1
+    }
+    RegisteringComponentSlotInfo SupplyStorage_02 {
+     Enabled 1
+    }
+    RegisteringComponentSlotInfo SupplyStorage_03 {
+     Enabled 1
+    }
+    RegisteringComponentSlotInfo Roof {
+     Prefab "{E3213C88A04565AA}Prefabs/Vehicles/Wheeled/M998/VehParts/M1025_roof_US.et"
+    }
+    EntitySlotInfo SupplyStorage_04 {
+     Enabled 1
+    }
+    EntitySlotInfo SupplyStorage_06 {
+     Enabled 1
+    }
+   }
+  }
+ }
+ coords 0 0 0
+}

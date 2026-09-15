@@ -1,0 +1,14 @@
+GenericEntity : "{24B963EDFCB00A7E}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/LAV25_wheel_base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{3866927FFD7C4F04}Assets/Vehicles/Wheeled/LAV25/VehParts/Wheels/LAV25_wheel_R_02.xob"
+   Materials {
+    MaterialAssignClass "{69DCF96CF4CBF2D2}" {
+     SourceMaterial "LAV25_Wheel"
+     AssignedMaterial "{2E02B3F35540C368}Assets/Vehicles/Wheeled/LAV25/VehParts/Wheels/Data/LAV25_Wheel_tan.emat"
+    }
+   }
+  }
+ }
+}

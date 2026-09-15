@@ -1,0 +1,8 @@
+GameProject {
+ ID "ARCLArmbandsFIx"
+ GUID "6A02449ED47A91E1"
+ TITLE "ARCL Armbands FIx"
+ Dependencies {
+  "61E42AE6714A3CC2" "69B8B4C7FF4E64ED" "58D0FB3206B6F859"
+ }
+}

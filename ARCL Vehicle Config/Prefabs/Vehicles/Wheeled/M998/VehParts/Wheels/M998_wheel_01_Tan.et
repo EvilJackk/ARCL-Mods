@@ -1,0 +1,14 @@
+GenericEntity : "{5C3724BBF45EB2BF}Prefabs/Vehicles/Wheeled/M998/VehParts/Wheels/M998_wheel_01.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{69DCF96DBD4FD15B}" {
+     SourceMaterial "Assets/Vehicles/Wheeled/M998/Data/HMMWV_Wheels"
+     AssignedMaterial "{9D31F4E9D465020C}Assets/Vehicles/Wheeled/M1025/Data/HMMWV_Wheels_Tan.emat"
+    }
+   }
+  }
+ }
+ coords 82.685 1 1249.557
+}

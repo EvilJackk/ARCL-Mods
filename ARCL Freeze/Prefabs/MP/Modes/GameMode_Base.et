@@ -1,0 +1,7 @@
+SCR_BaseGameMode {
+ ID "56B2B479C6B96951"
+ components {
+  ARCLFreeze_ManagerComponent "{69FE4DD7DD6A27E6}" {
+  }
+ }
+}

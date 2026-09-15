@@ -1,0 +1,4 @@
+MatPBRMulti : "{01F64B645C47C260}Assets/Vehicles/Wheeled/LAV25/Data/LAV25_body_exterior.emat" {
+ DisableInteriorProbes 0
+ DisablePriorityProbes 0
+}

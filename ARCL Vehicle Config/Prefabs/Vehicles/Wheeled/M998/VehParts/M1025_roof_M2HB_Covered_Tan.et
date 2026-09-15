@@ -1,0 +1,25 @@
+GenericEntity : "{51037C0B74AA7A56}Prefabs/Vehicles/Wheeled/M998/VehParts/M1025_roof_M2HB_Covered.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{69DC09A9E808736C}" {
+     SourceMaterial "Base"
+     AssignedMaterial "{FB90674078F650D9}Assets/Vehicles/Turrets/M1025_Turret/Data/HMMWV_Body_Roof_Tan.emat"
+    }
+    MaterialAssignClass "{69DC09A9E8087357}" {
+     SourceMaterial "HMMWV_Body_Roof_Int_38AD25796F1BEB94"
+     AssignedMaterial "{B5E2E44E8539D782}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Roof_Int_Tan.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{54F2B37F3202E099}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{5E7453D7A96D05F8}Prefabs/Vehicles/Wheeled/M1114/VehParts/M1114_gun_mount_M2HB_Tan.et"
+    }
+   }
+  }
+ }
+ coords 112.337 1 1218.656
+}

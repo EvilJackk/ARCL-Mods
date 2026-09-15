@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{4EFE9687F92821BF}Assets/Images/UH60_extender_tan_BCR.edds"
+ NMOMap "{5AD32D60985D0C51}Texture/Green/BH_Green_extender_NMO.edds"
+}

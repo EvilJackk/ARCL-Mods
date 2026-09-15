@@ -1,0 +1,80 @@
+Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#TRC-Vehicle_M1025_Name - #TRC-Vehicle-Weapon-M2HB (#TRC_Time_2000)"
+    m_Image "{6EEC95CE112069B9}UI/EditorPreviews/Vehicles/Wheeled/M1025/M1025_Gunshield_M2HB.edds"
+    m_aAuthoredLabels + {
+     CONTENT_MODDED TRC_COLOR_ODGREEN
+    }
+    m_aAutoLabels {
+     FACTION_USSR SIZE_M VEHICLE_CAR
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 575
+     }
+     SCR_EntityBudgetValue "{5EF07CF263360EC1}" {
+      m_BudgetType RANK_PRIVATE
+      m_Value 1
+     }
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "USSR"
+  }
+  WCS_Armament_VehicleCameraComponent "{69DB66685D5EE982}" {
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo SupplyStorage_01 {
+    }
+    RegisteringComponentSlotInfo SupplyStorage_02 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo SupplyStorage_03 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Roof {
+     Prefab "{51037C0B74AA7A56}Prefabs/Vehicles/Wheeled/M998/VehParts/M1025_roof_M2HB_Covered.et"
+    }
+    EntitySlotInfo SupplyStorage_06 {
+    }
+    EntitySlotInfo Stool {
+     PivotID ""
+     Offset 0 1.2046 -0.1658
+     Angles 0 0 0
+     MergePhysics 0
+     Prefab "{6C96750F3FDE77C0}Prefabs/Vehicles/Wheeled/M1114/VehParts/Additions/GunnerStand/M1114_stand_gunner.et"
+     DisablePhysicsInteraction 1
+     DeactivatePhysicsOnAtaching 1
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{68796CB86E8DC3D4}" : "{734E65C89AC522E9}Prefabs/Vehicles/Core/Configs/WCS_Armaments_UserActionContext_Mirror_Left.conf" {
+     Position PointInfo "{66593E603D4A81E7}" {
+      Offset -0.115 0.4108 -0.0315
+      Angles 0 180 0
+     }
+    }
+    UserActionContext "{68796CB8606BCDF2}" : "{4A5C71F598B94922}Prefabs/Vehicles/Core/Configs/WCS_Armaments_UserActionContext_Mirror_Right.conf" {
+     Position PointInfo "{66593E603D4A81E7}" {
+      Offset 0.115 0.4108 -0.0315
+      Angles 0 180 0
+     }
+    }
+   }
+   additionalActions {
+    WCS_Armament_VehicleCameraAction "{68796CBBA9E2D51F}" : "{CEA6F20BF23FD8D5}Prefabs/Vehicles/Core/Configs/WCS_Armaments_VehicleCameraAction_Mirror_Left.conf" {
+    }
+    WCS_Armament_VehicleCameraAction "{68796CBBA8CF7A58}" : "{67D39579157E8C2C}Prefabs/Vehicles/Core/Configs/WCS_Armaments_VehicleCameraAction_Mirror_Right.conf" {
+    }
+   }
+  }
+ }
+ coords 77.457 1 1562.611
+}

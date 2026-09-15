@@ -1,0 +1,12 @@
+GameEntity : "{F7E0C6C94ADBC02E}Prefabs/Characters/Armbands/Tape_Large/Armband_Tape_Large_Blue.et" {
+ ID "61E43A54A15F05C3"
+ components {
+  InventoryItemComponent "{61E43A54A15F05DC}" {
+   Attributes SCR_ItemAttributeCollection "{61E43A54A15F05D0}" {
+    ItemPhysAttributes ItemPhysicalAttributes "{61E43A54A15F05E8}" {
+     Weight 0
+    }
+   }
+  }
+ }
+}

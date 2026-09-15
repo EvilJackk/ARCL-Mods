@@ -1,0 +1,22 @@
+GameProject {
+ ID "ARCL_Core"
+ GUID "30FFA244D12CC12B"
+ TITLE "ARCL_Core"
+ Dependencies {
+  "58D0FB3206B6F859" "64610AFB74AA9842" "595F2BF2F44836FB" "1337C0DE5DABBEEF" "BADC0DEDABBEDA5E" "60C4CE4888FF4621" "60EAEA0389DB3CC2" "6613585B4419D92E" "654378D9EA40DC4E" "61E42AE6714A3CC2" "69B8B4C7FF4E64ED"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

@@ -1,0 +1,41 @@
+GenericEntity : "{A507D9AE39652BD6}Prefabs/Vehicles/Core/Vehicle_Part_Base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Object "{D7A4A91AD6D0BC5D}Assets/Vehicles/Helicopters/AH6M/VehParts/Supply.xob"
+   Materials {
+    MaterialAssignClass "{69DB6660D31D5D6E}" {
+     SourceMaterial "Supply_Heli_Blank"
+     AssignedMaterial "{61B43470D92932FC}Assets/Vehicles/Helicopters/AH6M/Data/Black/AH6M_Supply_Blank_US.emat"
+    }
+   }
+  }
+  RigidBody "{4B42E71692C2FB79}" {
+   Kinematic 1
+  }
+  SCR_DamageManagerComponent "{3EBB276D48AFFF41}" {
+   "Additional hit zones" {
+    SCR_DestructibleHitzone Cargo {
+     HZDefault 1
+     BaseDamageMultiplier 0
+     DamageReduction 0
+     DamageThreshold 0
+     AreaOverride 5
+     "Collision multiplier" 0
+     m_aDamagePassRules {
+      SCR_DamagePassRule "{69DB66614A87598C}" {
+      }
+     }
+     m_pDestructionHandler SCR_DestructionBaseHandler "{69DB66614A8759B8}" {
+      m_bDeleteAfterParentDestroyed 0
+     }
+     m_vParticleOffset 0 0 0
+    }
+   }
+   "Fall damage min speed" 3
+   "Fall damage max speed" 18
+   CollisionVelocityThreshold 5
+   "Heavy damage threshold" 70
+  }
+ }
+}

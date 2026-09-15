@@ -1,0 +1,31 @@
+GenericEntity : "{0B70147AE612A768}Prefabs/Vehicles/Wheeled/M998/VehParts/M1025_roof_empty.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{69DC09A99459385E}" {
+     SourceMaterial "Base"
+     AssignedMaterial "{BDEB1AB32215A15C}Assets/Vehicles/Turrets/M1025_Turret/Data/HMMWV_Body_Roof_Tan_US.emat"
+    }
+    MaterialAssignClass "{69DC09A99459384E}" {
+     SourceMaterial "HMMWV_Body_Roof_Int_38AD25796F1BEB94"
+     AssignedMaterial "{50F47EAFADECFDFC}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Roof_Int_Tan_US.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{54F2B37F3202E099}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     MergePhysics 1
+     Prefab "{EF68DB877FC1AA29}Prefabs/Vehicles/Wheeled/M998/VehParts/M1025_turret_US.et"
+     DisablePhysicsInteraction 0
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterWeapons 1
+     RegisterCompartments 1
+    }
+   }
+  }
+ }
+}

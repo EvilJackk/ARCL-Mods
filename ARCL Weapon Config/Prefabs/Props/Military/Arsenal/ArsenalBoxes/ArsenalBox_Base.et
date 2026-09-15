@@ -1,0 +1,14 @@
+GenericEntity {
+ ID "56F2C6D6F7C6DAFA"
+ components {
+  ActionsManagerComponent "{56F2C6D1431ADB12}" {
+   additionalActions {
+    GRS_OpenLockerAction "{69856395BDED9F27}" {
+     ParentContextList {
+      ""
+     }
+    }
+   }
+  }
+ }
+}

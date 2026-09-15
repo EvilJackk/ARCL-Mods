@@ -1,0 +1,5 @@
+MatPBRBasic {
+ BCRMap "{9BF908E74FED7171}Assets/Images/UH60_tan_US_body_BCR.edds"
+ OpacityMap "{69BFD7B0337B7B37}Texture/body_Opacity.edds"
+ NMOMap "{7DAC96802C97B56E}Texture/Green/BH_Green_body_NMO.edds"
+}

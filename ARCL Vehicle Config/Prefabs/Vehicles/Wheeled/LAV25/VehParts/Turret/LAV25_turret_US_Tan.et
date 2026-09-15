@@ -1,0 +1,19 @@
+Turret : "{DF5979FDE2682F70}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Turret/LAV25_turret_base.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{69DCF96E990F6F17}" {
+     SourceMaterial "LAV25_body_exterior"
+     AssignedMaterial "{91348024F997C9F3}Assets/Vehicles/Wheeled/LAV25/Data/LAV25_body_exterior_US_Tan.emat"
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponTemplate "{6942DD200C9B00AA}Prefabs/Weapons/Cannons/Cannon_M242/Cannon_M242_LAV25_APDST_US_tan.et"
+  }
+  WeaponSlotComponent "{6118831970FD4F0C}" {
+   WeaponTemplate "{5D66B09B9F8D0526}Prefabs/Weapons/Cannons/Cannon_M242/Cannon_M242_LAV25_HEIT_US_tan.et"
+  }
+ }
+}

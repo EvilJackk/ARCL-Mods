@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C60CE526C121B2E9}Prefabs/Vehicles/Wheeled/M151A2/VehParts/Wheels/M151A2_wheel_left_01_tan.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

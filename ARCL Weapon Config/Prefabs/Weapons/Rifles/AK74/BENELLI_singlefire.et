@@ -1,0 +1,112 @@
+GenericEntity : "{FA5C25BF66A53DCF}Prefabs/Weapons/Rifles/AK74/Rifle_AK74.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{10510AE8093C539D}Sounds/Weapons/Rifles/AK-74/12g shot.acp" "{1A15B9A1B0C17E1B}Sounds/Weapons/Rifles/AK-74/Weapons_Rifles_AK-74_Handling.acp" "{68E023371FDD3B12}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Rifle_WoodMetal.acp" "{A84D9F22F2C0D9CE}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Rifle_WoodMetal.acp" "{332983CC95EE1E1E}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Rifle.acp" "{D8F675F3468362E2}Sounds/Weapons/_SharedData/Weapons_Sights_Actions.acp" "{10C1421961C34D26}Sounds/Weapons/_SharedData/Weapons_Deployment.acp"
+   }
+  }
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{4A6AFD766C5355F0}xob/TTI_benelli.xob"
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "Benelli M4 "
+     Description "Benelli M4 12ga"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{51F6738D2EC74BE1}" {
+     AttachmentSlot InventoryStorageSlot underbarrel {
+      Offset 0 0.0995 0.0902
+      Prefab "{8D3C975383ECDCEB}Scopes/AimPoint Micro H2/Prefabs/Collim_APMH2_base.et"
+     }
+     AttachmentType AttachmentOpticsRIS1913Short "{58E2A37522A0E34B}" {
+     }
+    }
+    AttachmentSlotComponent "{5F189C826D592450}" {
+     Enabled 0
+    }
+    AttachmentSlotComponent "{69F72CEAA2BFBD14}" {
+     Enabled 0
+     AttachmentSlot InventoryStorageSlot "{65A2B6031E236085}" {
+      Prefab "{A7B90CDB91BBA0E6}Prefabs/Weapons/Attachments/Flashlight/m600v_black.et"
+     }
+     AttachmentType AttachmentRIS1913 "{69F72CEAA2BFBE7F}" {
+     }
+    }
+    SightsComponent "{BB23A637957CFFF8}" {
+     SightsPosition PointInfo "{BB23A63796688E69}" {
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{4E2B66CBA589F625}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Enabled 0
+       }
+      }
+      CaseEjectingEffectComponent "{5122AAD190FCA21D}" {
+       ParticleEffect "{594502A74AF17402}shotgun shells.ptc"
+       EffectPosition EntitySlotInfo "{5122BA87B56F471A}" {
+        Offset 0.0196 0.0034 -0.018
+       }
+      }
+      SCR_MuzzleEffectComponent "{C9B3271BB22CDB68}" {
+       ParticleEffect "{1991E0492F618D77}Particles/Weapon/Muzzle_M60_flashHider.ptc"
+       EffectPosition EntitySlotInfo "{C9B3271BB85B5D32}" {
+        Offset 0 0 0.0011
+       }
+      }
+     }
+     MuzzleEndPositions {
+      PointInfo "{B80A64F4B6CFB9BF}" {
+       Offset 0 0 0.1416
+      }
+     }
+     ProjectileSpawnPositions {
+      PointInfo "{50F64C476EC435CA}" {
+       Offset 0 0.0084 0.6099
+      }
+     }
+     FireModes {
+      BaseFireMode "{506B20D1476BA99E}" {
+       RoundsPerMinute 300
+      }
+      BaseFireMode "{B80A64F4A8EF8333}" {
+       RoundsPerMinute 300
+      }
+      BaseFireMode "{69F72CEAA2BFBE6D}" {
+       MaxBurst 1
+       RoundsPerMinute 300
+       UIName "Single"
+      }
+     }
+     MagazineWell MagazineWell12GA "{55349E9229B55D96}" {
+     }
+     MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
+      Offset 0.0009 0.0173 -0.0254
+     }
+     MagazineTemplate ""
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "Benelli M4"
+    Description "Benelli M4 12ga"
+   }
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   additionalActions {
+    SCR_DetachMagazineUserAction "{5A1E58F790AF821D}" {
+     UIInfo SCR_ActionUIInfo "{5A1E58F788F40D95}" {
+      Name "Detach"
+     }
+    }
+   }
+  }
+ }
+ coords 140.486 1 128.86
+}

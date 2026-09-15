@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5D66B09B9F8D0526}Prefabs/Weapons/Cannons/Cannon_M242/Cannon_M242_LAV25_HEIT_US_tan.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

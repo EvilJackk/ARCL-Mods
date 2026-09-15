@@ -1,0 +1,8 @@
+GameProject {
+ ID "ARCLMedicalFixes"
+ GUID "6A0C0642C3BD798E"
+ TITLE "ARCL Medical Fixes"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}

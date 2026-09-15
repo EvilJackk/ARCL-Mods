@@ -1,0 +1,57 @@
+GenericEntity : "{0CD6E71D33E1CCD0}Prefabs/Vehicles/Core/Vehicle_EngineerBox_Base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  BaseLightManagerComponent "{5CC4F3413F3F1AE2}" : "{5A73DE5A36EF3B6E}Prefabs/Vehicles/Wheeled/M923A1/VehParts/M923A1_cargo_BaseLightManager.ct" {
+  }
+  MeshObject "{4B42E716914465B9}" {
+   Object "{48C4BA0B4E41763D}Assets/Vehicles/Wheeled/M923A1/M923A1_Cargo.xob"
+   Materials {
+    MaterialAssignClass "{69DE034053B050F5}" {
+     SourceMaterial "M923A1_Cargo"
+     AssignedMaterial "{023B7C16F7884C3F}Assets/Vehicles/Wheeled/M923A1/Data/M923A1_Cargo_tan.emat"
+    }
+    MaterialAssignClass "{69DE034053B050E5}" {
+     SourceMaterial "M923A1_Cargo_int_F2BB3C5E9786AE36"
+     AssignedMaterial "{023B7C16F7884C3F}Assets/Vehicles/Wheeled/M923A1/Data/M923A1_Cargo_tan.emat"
+    }
+   }
+  }
+  SCR_DamageManagerComponent "{3EBB276D48AFFF41}" {
+   "Additional hit zones" {
+    SCR_DestructibleHitzone EngineerBox {
+     m_pDestructionHandler SCR_DestructionBaseHandler "{5C77025948537C40}" {
+      m_sWreckModel "{A98B342A8B226409}Assets/Vehicles/Wheeled/M923A1/M923A1_Cargo_Wreck.xob"
+      m_bAllowHideWreck 1
+      m_bDeleteAfterParentDestroyed 0
+     }
+    }
+   }
+  }
+  SCR_ResourceComponent "{5D82E3A391ED9E1F}" {
+   m_aContainers {
+    SCR_ResourceContainer "{5D82E3A393410F0A}" {
+     m_fResourceValueMax 800
+    }
+   }
+  }
+  SlotManagerComponent "{69DE0340455EC270}" {
+   Slots {
+    RegisteringComponentSlotInfo Canvas {
+     MergePhysics 1
+     Prefab "{FB0AB9C02340C81D}Prefabs/Vehicles/Wheeled/M923A1/VehParts/M923A1_canvas_closed_tan.et"
+     RegisterDamage 1
+    }
+   }
+  }
+  ActionsManagerComponent "{5DE2DEF324F763D7}" {
+   ActionContexts {
+    UserActionContext "{5DE2DEF320BD8480}" {
+     Position PointInfo "{5DE2DEF0E5CEF861}" {
+      Offset 0 1.6411 -4.4683
+      Angles 0 -180 0
+     }
+    }
+   }
+  }
+ }
+}

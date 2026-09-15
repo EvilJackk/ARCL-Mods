@@ -1,0 +1,81 @@
+Vehicle : "{EDFD2D4D40AAE666}Prefabs/Vehicles/Helicopters/AH6M/MH6M_Supply.et" {
+ ID "57DA6675519A417B"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{62C4C4F4C1808A8F}" {
+     SourceMaterial "Body_1"
+     AssignedMaterial "{4C81F20F824FA1D8}Assets/Vehicles/Helicopters/AH6M/Data/OPFOR/OPFOR_Body_1.emat"
+    }
+    MaterialAssignClass "{62C4C4F4C1808AAE}" {
+     SourceMaterial "Body_2"
+     AssignedMaterial "{1269DB4C3DC22FD7}Assets/Vehicles/Helicopters/AH6M/Data/OPFOR/OPFOR_Body_2.emat"
+    }
+    MaterialAssignClass "{62C4C4F4C1808ADA}" {
+     SourceMaterial "Bolts"
+     AssignedMaterial "{CDEDE06EACF995DD}Assets/Vehicles/Helicopters/AH6M/Data/OPFOR/OPFOR_Bolts.emat"
+    }
+    MaterialAssignClass "{69DB666760D2E857}" {
+     SourceMaterial "Seats"
+     AssignedMaterial "{CB194314707B3E97}Assets/Vehicles/Helicopters/AH6M/Data/OPFOR/OPFOR_Seats.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Green MH6M Supply"
+    m_Image "{0819A5D1A2185A5C}UI/Textures/EditorPreviews/Vehicles/Helicopters/AH6M/OPFOR/MH6M_OPFOR_Supply.edds"
+    m_sFaction "USSR"
+    m_aAutoLabels {
+     FACTION_USSR SIZE_M
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EF07CE9B4A73374}" {
+      m_BudgetType RANK_SERGEANT
+      m_Value 3
+     }
+    }
+   }
+  }
+  SCR_ResourceComponent "{647A4D9ADC750F18}" {
+   m_bEnableDebugVisualization 0
+  }
+  SCR_UniversalInventoryStorageComponent "{629CB27942597510}" {
+   MultiSlots {
+    MultiSlotConfiguration "{629CB2794259753F}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et"
+     }
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "USSR"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo USArmyDecal {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Tail {
+     Prefab "{2D1802889DE95E10}Prefabs/Vehicles/Helicopters/AH6M/VehParts/Tail/AH6M_OPFOR_Tail.et"
+    }
+    RegisteringComponentSlotInfo Rappel_Mounts {
+     Prefab "{E8D57CEDFBB4B924}Prefabs/Vehicles/Helicopters/AH6M/VehParts/Extra/OPFOR/OPFOR_Rappel_Mounts.et"
+    }
+    RegisteringComponentSlotInfo turret {
+     Prefab "{2EA5CEF70C4C7187}Prefabs/Vehicles/Helicopters/AH6M/VehParts/Turret/OPFOR/MH6M_OPFOR_Turret.et"
+    }
+    WCS_Armament_DispenserSlotInfo CM_Flares_L {
+     Prefab "{99CF4A86335365C2}Prefabs/Weapons/Countermeasures/AH6M_OPFOR_Flare_Dispenser.et"
+    }
+    WCS_Armament_DispenserSlotInfo CM_Flares_R {
+     Prefab "{99CF4A86335365C2}Prefabs/Weapons/Countermeasures/AH6M_OPFOR_Flare_Dispenser.et"
+    }
+    RegisteringComponentSlotInfo Supply_Ext {
+     Prefab "{B83AFCE6AD6F4293}Prefabs/Vehicles/Helicopters/AH6M/VehParts/Extra/OPFOR/MH6M_OPFOR_Supply_Exterior.et"
+    }
+   }
+  }
+ }
+}

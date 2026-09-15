@@ -1,0 +1,82 @@
+Vehicle : "{8440B0F28187BEC9}Prefabs/Vehicles/Helicopters/UH60/UH-60_base.et" {
+ ID "6910AB9493C73382"
+ components {
+  MeshObject "{6910AB948A4EF307}" {
+   Materials {
+    MaterialAssignClass "{69DC09A5FCC67BD6}" {
+     SourceMaterial "body"
+     AssignedMaterial "{E02A359C840D2DA3}XOB/Data/body_tan_US.emat"
+    }
+    MaterialAssignClass "{69DC09A5FCC67BE1}" {
+     SourceMaterial "extender"
+     AssignedMaterial "{6CADF495019625E7}XOB/Data/extender_tan.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{6916DC2EBFB95A8F}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{6916DC2E4946750C}" {
+    Name "UH-60 Tan"
+    m_Image "{8ECE41F077E6B26A}Assets/Images/Previews/ImagePreview_UH60_US.edds"
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EF07CE9B4A73374}" {
+      m_BudgetType RANK_LIEUTENANT
+      m_Value 4
+     }
+    }
+   }
+  }
+  WCS_Armament_AircraftInfraredEmitterComponent "{6A0D48396BE3A0BC}" {
+   m_vPosition 0.029 2.71 -1.852
+  }
+  WCS_Armament_DispenserManagerComponent "{6A0D48390FFF8D25}" {
+   m_FlareInfo WCS_Armament_DispenserFlareInfo "{6A0D483902E79AAF}" {
+    m_aActionEnabledCompartments {
+     "Pilot" "Copilot"
+    }
+    m_FireInputActionTrigger PRESSED
+    m_FireModes {
+     WCS_Armament_DispenserSingleFireMode "{6A0D48391EA60828}" {
+      m_iFireIntervalMS 150
+     }
+    }
+   }
+  }
+  WCS_Armament_MWSComponent "{6A10CADE0B31FA67}" {
+   m_eThreatSizeDetection 112
+  }
+  SlotManagerComponent "{693717EA5E627710}" {
+   Slots {
+    RegisteringComponentSlotInfo Gunner_left {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Gunner_right {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Fuel_probe {
+     Enabled 0
+     Prefab "{E8400ECB6DD4FA00}Prefabs/Vehicles/Helicopters/UH1H/VehParts/UH-60_fuel_probe_green.et"
+    }
+    WCS_Armament_DispenserSlotInfo Flare1 {
+     Offset 0.6513 1.3472 -3.8516
+     Angles 73.3021 154.2691 -116.709
+     Prefab "{63DA839055CED0D2}Prefabs/Weapons/Countermeasures/Dispenser_Flare_Mi8MT.et"
+    }
+    WCS_Armament_DispenserSlotInfo Flare2 {
+     Offset -0.5675 1.3582 -3.8516
+     Angles 73.3031 -154.2691 116.709
+     Prefab "{63DA839055CED0D2}Prefabs/Weapons/Countermeasures/Dispenser_Flare_Mi8MT.et"
+    }
+    WCS_Armament_DispenserSlotInfo Flare3 {
+     Offset 0.588 1.3905 -4.4613
+     Angles -17.5801 27.2134 81.1716
+     Prefab "{63DA839055CED0D2}Prefabs/Weapons/Countermeasures/Dispenser_Flare_Mi8MT.et"
+    }
+    WCS_Armament_DispenserSlotInfo Flare4 {
+     Offset -0.5476 1.3966 -4.4784
+     Angles -17.5801 -27.2134 -81.1716
+     Prefab "{63DA839055CED0D2}Prefabs/Weapons/Countermeasures/Dispenser_Flare_Mi8MT.et"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{15EDF90033419870}Assets/Vehicles/Wheeled/M151A2/Data/M151A2_Wheels_tan.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

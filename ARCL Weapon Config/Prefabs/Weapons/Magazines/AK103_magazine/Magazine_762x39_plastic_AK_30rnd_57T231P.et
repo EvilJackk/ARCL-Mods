@@ -1,0 +1,10 @@
+GenericEntity : "{8BE2A044C26FA4E9}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    m_eAmmoTypeFlags 6
+   }
+  }
+ }
+}

@@ -1,0 +1,60 @@
+Vehicle : "{00E44B850A54EFA6}Prefabs/Vehicles/Wheeled/M998/M1025_armed_GunCover_M2HB.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{69DC09AB2588A6CA}" {
+     SourceMaterial "Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body"
+     AssignedMaterial "{F1FA74DCA013923C}Assets/Vehicles/Wheeled/M998/HMMWV_Body_Tan.emat"
+    }
+    MaterialAssignClass "{69DC09AB2588A6A3}" {
+     SourceMaterial "HMMWV_Body_Int_1C7B4ACE653D9BD1"
+     AssignedMaterial "{D72300AEE8EFDB3D}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Int_Tan.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{FC564913C660EF31}UI/EditorPreviews/Vehicles/Wheeled/M1025/M1025_Gunshield_M2HB_Tan.edds"
+    m_aAuthoredLabels {
+     ENTITYTYPE_VEHICLE TRAIT_PASSENGERS_SMALL TRAIT_SUPPLYSTORAGE_SMALL TRAIT_ARMOR TRAIT_ARMED CONTENT_MODDED TRC_COLOR_USTAN
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EF07CF263360EC1}" {
+      m_BudgetType RANK_PRIVATE
+      m_Value 1
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    SCR_WheelSlotInfo Wheel_L01 {
+     Prefab "{01CB4C112B526173}Prefabs/Vehicles/Wheeled/M998/VehParts/Wheels/M998_wheel_01_Tan.et"
+    }
+    SCR_WheelSlotInfo Wheel_L02 {
+     Prefab "{01CB4C112B526173}Prefabs/Vehicles/Wheeled/M998/VehParts/Wheels/M998_wheel_01_Tan.et"
+    }
+    SCR_WheelSlotInfo Wheel_R01 {
+     Prefab "{01CB4C112B526173}Prefabs/Vehicles/Wheeled/M998/VehParts/Wheels/M998_wheel_01_Tan.et"
+    }
+    SCR_WheelSlotInfo Wheel_R02 {
+     Prefab "{01CB4C112B526173}Prefabs/Vehicles/Wheeled/M998/VehParts/Wheels/M998_wheel_01_Tan.et"
+    }
+    RegisteringComponentSlotInfo Seats_rear {
+     Prefab "{CF9B3D404C8C943B}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_seats_rear_Tan.et"
+    }
+    RegisteringComponentSlotInfo Tailgate {
+     Prefab "{50A0D52CC4161956}Prefabs/Vehicles/Wheeled/M998/VehParts/M1114_Tailgate_Tan.et"
+    }
+    RegisteringComponentSlotInfo Mirrors {
+     Prefab "{78A0EBF19B95B627}Prefabs/Vehicles/Wheeled/M998/VehParts/M1114_mirrors_01_Tan.et"
+    }
+    RegisteringComponentSlotInfo Roof {
+     Prefab "{24607EA424071977}Prefabs/Vehicles/Wheeled/M998/VehParts/M1025_roof_M2HB_Covered_Tan.et"
+    }
+   }
+  }
+ }
+ coords 77.457 1 1562.611
+}

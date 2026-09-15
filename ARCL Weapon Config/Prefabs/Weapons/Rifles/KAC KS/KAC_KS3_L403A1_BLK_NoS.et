@@ -1,0 +1,71 @@
+GenericEntity : "{1B9AFB9847A3C06E}Prefabs/Weapons/Rifles/KAC KS/KAC_KS3_L403A1_FDE.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  MeshObject "{CFBAA4B701F95D69}" {
+   Materials {
+    MaterialAssignClass "{69E0229040FC320D}" {
+     SourceMaterial "KAC_Sights"
+     AssignedMaterial "{345BFAC15171F4AD}Assets/Weapons/Rifle/Data/KAC_Sights_Black.emat"
+    }
+    MaterialAssignClass "{69E0229040FC321B}" {
+     SourceMaterial "KS3_Handguard"
+     AssignedMaterial "{FEDA18ABA7A1BA35}Assets/Weapons/Rifle/Data/KS3_Handguard_Black.emat"
+    }
+    MaterialAssignClass "{69E0229040FC3218}" {
+     SourceMaterial "KS3_Lower"
+     AssignedMaterial "{BD1F6ED7FDAC8DD6}Assets/Weapons/Rifle/Data/KS3_Lower_Black.emat"
+    }
+    MaterialAssignClass "{69E0229040FC3219}" {
+     SourceMaterial "L403_Charging_Handle"
+     AssignedMaterial "{06878A7B16A50185}Assets/Weapons/Rifle/Data/L403_Charging_Handle_Black.emat"
+    }
+    MaterialAssignClass "{69E0229040FC321E}" {
+     SourceMaterial "L403_Upper"
+     AssignedMaterial "{77618FB5B9058719}Assets/Weapons/Rifle/Data/L403_Upper_Black.emat"
+    }
+    MaterialAssignClass "{69E0229040FC321F}" {
+     SourceMaterial "Magpul_MIAD"
+     AssignedMaterial "{9279D1713983D092}Assets/Weapons/Rifle/Data/Magpul_MIAD_Black.emat"
+    }
+    MaterialAssignClass "{69E0229040E3CC51}" {
+     SourceMaterial "Magpul_SLK"
+     AssignedMaterial "{BC8D2380C2246F3B}Assets/Weapons/Rifle/Data/Magpul_SLK_Black.emat"
+    }
+   }
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "KAC KS-3"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5534745C44D1EF58}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      Prefab "{95ECE8D628DFEA00}Prefabs/Weapons/Attachments/Optics/Vortex_Eleanor/Vortex_Eleanor_Black.et"
+     }
+    }
+    AttachmentSlotComponent "{656EB6369F7A04C4}" {
+     AttachmentSlot InventoryStorageSlot Foregrip {
+      Prefab "{42B424630BBFB849}Prefabs/Weapons/Attachments/Grips/BCM_Mod3_MLOK_Black.et"
+     }
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{5D527627CCB8F756}" {
+       AttachmentSlot InventoryStorageSlot Flashhider {
+        Prefab "{6C3B75FEE25A608E}Prefabs/Weapons/Attachments/Muzzle/Flashhiders/FlashHider_KAC_QDC.et"
+       }
+      }
+     }
+     MagazineTemplate "{B5BB4F94A1DF5E64}Prefabs/Weapons/Magazines/Magazine_556x45_PMAG_Gen3_30rd_Black_4B1T_M855A1_M856.et"
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "KAC KS-3"
+   }
+  }
+ }
+}

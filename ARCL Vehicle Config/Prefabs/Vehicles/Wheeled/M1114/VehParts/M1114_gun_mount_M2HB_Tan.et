@@ -1,0 +1,17 @@
+Turret : "{9B79E4BAFB626B67}Prefabs/Vehicles/Wheeled/M1114/VehParts/M1114_gun_mount_M2HB.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{69DC09A9BC7D0040}" {
+     SourceMaterial "Base"
+     AssignedMaterial "{FB90674078F650D9}Assets/Vehicles/Turrets/M1025_Turret/Data/HMMWV_Body_Roof_Tan.emat"
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponTemplate "{BF66644C0CBCE6F4}Prefabs/Weapons/HeavyWeapons/HMG_M2HB_pintle_M1114_Covered_Tan.et"
+  }
+ }
+ coords 87.915 1 1222.667
+}

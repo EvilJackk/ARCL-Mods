@@ -1,0 +1,22 @@
+GameProject {
+ ID "ARCLCoreFix"
+ GUID "6A0D6535D6B63527"
+ TITLE "ARCL Core Fix"
+ Dependencies {
+  "58D0FB3206B6F859" "30FFA244D12CC12A"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

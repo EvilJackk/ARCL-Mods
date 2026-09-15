@@ -1,0 +1,7 @@
+MatPBRMulti : "{A81E68A0A841F5B5}Assets/Vehicles/Wheeled/M151A2/Data/M151A2_Details.emat" {
+ DisablePriorityProbes 0
+ Color_4 0.039 0.039 0.039 1
+ Color_3 0.039 0.039 0.039 1
+ Color_2 0.145 0.114 0.075 1
+ Color_1 0.145 0.114 0.075 1
+}

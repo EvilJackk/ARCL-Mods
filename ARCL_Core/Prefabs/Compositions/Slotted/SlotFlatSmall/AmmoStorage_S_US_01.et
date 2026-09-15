@@ -1,0 +1,31 @@
+GenericEntity : "{6E9190BC2713551D}Prefabs/Compositions/Slotted/BuildableComposition_Base.et" {
+ ID "5282DCB5DFC8538F"
+ {
+  GenericEntity {
+   ID "09882C7F87111FB6"
+   {
+    GenericEntity {
+     ID "00D6BA2630EC02A1"
+     components {
+      SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+       m_eSupportedArsenalItemTypes 654528
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "5D06E957D85806FB"
+   {
+    GenericEntity {
+     ID "5D371ACBFA947460"
+     components {
+      SCR_ArsenalComponent "{56F2C6D1431AD9AF}" {
+       m_eSupportedArsenalItemTypes 654528
+      }
+     }
+    }
+   }
+  }
+ }
+}

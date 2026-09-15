@@ -1,0 +1,13 @@
+GenericEntity : "{5A9FC4436FEDB824}Prefabs/Vehicles/Wheeled/M923A1/VehParts/Wheels/M923A1_wheel_base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{69DCF928ED3361FD}" {
+     SourceMaterial "M923A1_Wheel"
+     AssignedMaterial "{30E712C1566BF316}Assets/Vehicles/Wheeled/M923A1/Data/M923A1_Wheel_tan.emat"
+    }
+   }
+  }
+ }
+}

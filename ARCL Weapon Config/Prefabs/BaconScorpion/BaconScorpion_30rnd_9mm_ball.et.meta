@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{DF2EE80EDABAEEAA}Prefabs/BaconScorpion/BaconScorpion_30rnd_9mm_ball.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

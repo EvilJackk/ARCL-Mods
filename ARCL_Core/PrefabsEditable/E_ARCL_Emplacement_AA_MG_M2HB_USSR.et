@@ -1,0 +1,16 @@
+GenericEntity : "{4F05E4FCE905885B}PrefabsEditable/Auto/Compositions/Misc/FreeRoamBuilding/E_Emplacement_AA_MG_US_M2HB.et" {
+ ID "6510E3A096D1DE70"
+ components {
+  SCR_EditableEntityComponent "{6662B08BB630D128}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "USSR"
+    m_aAuthoredLabels + {
+     FACTION_USSR
+    }
+    m_aAutoLabels {
+     FACTION_USSR
+    }
+   }
+  }
+ }
+}

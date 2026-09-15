@@ -1,0 +1,8 @@
+GameProject {
+ ID "ARCLFreeze"
+ GUID "69FE3603C52EA7A1"
+ TITLE "ARCL Freeze"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}

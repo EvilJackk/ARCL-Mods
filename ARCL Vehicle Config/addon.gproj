@@ -1,0 +1,22 @@
+GameProject {
+ ID "ARCLVehicleConfig"
+ GUID "DEADC0DE67691337"
+ TITLE "ARCL Vehicle Config"
+ Dependencies {
+  "632F64CB7D65D1FC" "69F415A5B15EC350" "688D66CBCE3CFA42" "62CCD69DD17E4F2F" "6273146ADFE8241D" "58D0FB3206B6F859"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{0C94D7D680DD4C18}Assets/Vehicles/Wheeled/M998/HMMWV_Body_TanUS.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

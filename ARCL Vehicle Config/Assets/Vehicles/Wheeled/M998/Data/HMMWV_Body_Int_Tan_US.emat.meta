@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{44092DD81CA06166}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Int_Tan_US.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

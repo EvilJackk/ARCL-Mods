@@ -1,0 +1,276 @@
+GenericEntity : "{C63227C0E70EA62E}Prefabs/Weapons/Rifles/M16/Rifle_M16A2_base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{DC17ACE796E98525}Sounds/Weapons/Rifles/AR15/Weapons_L403A1_Shot.acp" "{3B07416EC9A6EE43}Sounds/Weapons/Rifles/AR15/Weapons_L403A1_Suppressed.acp" "{A6F3D0955462D8FE}Sounds/Weapons/Rifles/M16A2/Weapons_Rifles_M16A2_Handling.acp" "{D8F675F3468362E2}Sounds/Weapons/_SharedData/Weapons_Sights_Actions.acp" "{68E023371FDD3B12}Sounds/Weapons/_SharedData/Drop/Weapons_Drop_Rifle_WoodMetal.acp" "{07E8D425196745F4}Sounds/Weapons/_SharedData/PickUp/Weapons_PickUp_Rifle_Plastic.acp" "{332983CC95EE1E1E}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Rifle.acp" "{10C1421961C34D26}Sounds/Weapons/_SharedData/Weapons_Deployment.acp" "{E419B2CF55F4A389}Sounds/Weapons/_SharedData/Melee/Weapons_Melee_Bayonett.acp"
+   }
+  }
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{D07F2F84ABBAD179}Assets/Weapons/Rifle/L403A1.xob"
+   Materials {
+    MaterialAssignClass "{69E02290B7B0C0B5}" {
+     SourceMaterial "M16A2_FrontSight_01"
+     AssignedMaterial "{98D559D65B9736F3}Assets/Weapons/Rifles/M16A2/Data/M16A2_FrontSight_01.emat"
+    }
+    MaterialAssignClass "{69E02290B7B0C060}" {
+     SourceMaterial "M16A2_Grip_01"
+     AssignedMaterial "{3C458975866E3A47}Assets/Weapons/Rifles/M16A2/Data/M16A2_Grip_01.emat"
+    }
+    MaterialAssignClass "{69E02290B7B0C061}" {
+     SourceMaterial "M16A2_Receiver1_01"
+     AssignedMaterial "{C4776498ED1BAA69}Assets/Weapons/Rifles/M16A2/Data/M16A2_Receiver1_01.emat"
+    }
+    MaterialAssignClass "{69E02290B7B0E6AD}" {
+     SourceMaterial "M16A2_Receiver2_01"
+     AssignedMaterial "{CA6920D0D0ECA5B3}Assets/Weapons/Rifles/M16A2/Data/M16A2_Receiver2_01.emat"
+    }
+    MaterialAssignClass "{69E02290B7B0E6AF}" {
+     SourceMaterial "M16A2_carbine_Barrel_01"
+     AssignedMaterial "{E5F534D8E719A0A5}Assets/Weapons/Rifles/M16A2/Data/M16A2_carbine_Barrel_01.emat"
+    }
+    MaterialAssignClass "{69E02290B7B0E6A0}" {
+     SourceMaterial "M16A2_carbine_Stock_01"
+     AssignedMaterial "{40593F465044A5A5}Assets/Weapons/Rifles/M16A2/Data/M16A2_carbine_Stock_01.emat"
+    }
+   }
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5222CB07CFF6712A}" {
+     Name "L403A1 KS-1"
+     Description "The KAC KS Series of 5.56mm rifles by Knight’s Armament Company is a line of lightweight, reliable, and modular rifles designed for professional use. Built around a monolithic upper receiver and free-floating barrel, the KS series offers improved accuracy, reduced weight, and enhanced durability. These rifles feature ambidextrous controls and are optimized for both military and law enforcement applications."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5534745C44D1EFE1}" {
+     Weight 2.71
+     ItemDimensions 20 20 20
+     ItemVolume 1200
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{5284960E1D29F45C}" {
+     AnimationIKPose "{A254A5603B002634}Assets/Weapons/Rifle/Anims/txa/p_L403_ik.anm"
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{52BAB5E48C906DB8}" {
+      LodModel 0
+     }
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5534745C44D1EF58}" {
+     AttachmentSlot InventoryStorageSlot optics {
+      PivotID "Attachment_Optic"
+      Prefab "{9F7AA74BC5DD4679}Prefabs/Weapons/Attachments/Optics/Vortex_Eleanor/Vortex_Eleanor.et"
+     }
+     AttachmentType AttachmentOpticsRIS1913 "{5A5CDB17A85868B7}" {
+     }
+    }
+    AttachmentSlotComponent "{56DE9C900611C1AF}" {
+     AttachmentSlot InventoryStorageSlot HandguardRISTop {
+      PivotID "Attachment_RIS_Top_Forward"
+      Offset 0 0 0.0654
+     }
+     AttachmentType AttachmentRIS1913 "{58E2B5510A713A07}" {
+     }
+     ShowInInspection 1
+    }
+    AttachmentSlotComponent "{5F16E0B4B2D0D72C}" {
+     AttachmentSlot InventoryStorageSlot HandguardRISRight {
+      PivotID "Attachment_RIS_Right"
+      Offset 0 0.0028 0
+     }
+     AttachmentType AttachmentRIS1913 "{60AAE4351FBECDEA}" {
+     }
+    }
+    AttachmentSlotComponent "{69E02290B7B0E691}" {
+     AttachmentSlot InventoryStorageSlot Foregrip {
+      PivotID "w_root"
+      ChildPivotID "Attach"
+     }
+     AttachmentType AttachmentProntoAR15MLOKGrip "{69E02290B7B0E694}" {
+     }
+     ShowInInspection 1
+    }
+    AttachmentSlotComponent "{69E02290B7B0E69E}" {
+     AttachmentSlot InventoryStorageSlot HandguardRISLeft {
+      PivotID "Attachment_RIS_Left"
+      Offset 0 0.0029 0
+     }
+     AttachmentType AttachmentRIS1913 "{69E02290B7B0E690}" {
+     }
+     ShowInInspection 1
+    }
+    SightsComponent "{BB23A637957CFFF8}" {
+     SightsPosition PointInfo "{BB23A63796688E69}" {
+      PivotID "Eye"
+      Offset 0 0 0
+     }
+     SightsRanges {
+      SightRangeInfo "{584CED30AFBE1EB5}" {
+       Range 0 0
+       WeaponPosition PointInfo "{584CED30AFBE1ED1}" {
+        Offset 0 0 0
+        Angles 0 0 0
+       }
+      }
+      SightRangeInfo "{584CED30AF80A576}" {
+       Range 1 100
+       WeaponPosition PointInfo "{584CED30AF80A560}" {
+        Offset 0 0 0
+        Angles 0 0 0
+       }
+      }
+      SightRangeInfo "{584CED30AF834928}" {
+       Range 1 100
+       WeaponPosition PointInfo "{584CED30AF834957}" {
+        Offset 0 0 0
+        Angles 0 0 0
+       }
+      }
+      SightRangeInfo "{584CED30AF821312}" {
+       Range 1 100
+       WeaponPosition PointInfo "{584CED30AF82131E}" {
+        Offset 0 0 0
+        Angles 0 0 0
+       }
+      }
+      SightRangeInfo "{584CED30AF84A542}" {
+       Range 1 100
+       WeaponPosition PointInfo "{584CED30AF84A549}" {
+        Offset 0 0 0
+        Angles 0 0 0
+       }
+      }
+      SightRangeInfo "{584CED30AF874F57}" {
+       Range 1 100
+       WeaponPosition PointInfo "{584CED30AF874F5C}" {
+        Offset 0 0 0
+        Angles 0 0 0
+       }
+      }
+      SightRangeInfo "{584CED30AF8617A6}" {
+       Range 1 100
+       WeaponPosition PointInfo "{584CED30AF8617AE}" {
+        Offset 0 0 0
+        Angles 0 0 0
+       }
+      }
+     }
+     SightsRangesDefaultIndex 0
+     SightsPointFront PointInfo "{5534745C44D1EF08}" {
+      PivotID "Sights_Front"
+      Offset 0 0 0
+     }
+     SightsPointRear PointInfo "{5534745C44D1EF0D}" {
+      PivotID "Sights_Rear"
+      Offset 0 0 0
+     }
+     SightsSwitchSkip 1
+    }
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{5D527627CCB8F756}" {
+       AttachmentSlot InventoryStorageSlot Flashhider {
+        PivotID "Attachment_Muzzle"
+        Offset 0 0 -0.0194
+        Prefab "{6C3B75FEE25A608E}Prefabs/Weapons/Attachments/Muzzle/Flashhiders/FlashHider_KAC_QDC.et"
+       }
+      }
+      CaseEjectingEffectComponent "{5122AAD190FCA21D}" {
+       EffectPosition EntitySlotInfo "{5122BA87B56F471A}" {
+        PivotID "Slot_Chamber"
+        Offset 0.015 0.0855 0.0623
+       }
+      }
+      SCR_MuzzleEffectComponent "{C9B3271BB22CDB68}" {
+       EffectPosition EntitySlotInfo "{C9B3271BB85B5D32}" {
+        PivotID "Muzzle_Slot"
+       }
+      }
+     }
+     MuzzleEndPositions {
+      PointInfo "{B80A64F4B6CFB9BF}" {
+       PivotID "Muzzle_Slot"
+      }
+     }
+     ProjectileSpawnPositions {
+      PointInfo "{50F64C476EC435CA}" {
+       PivotID "Muzzle_Slot"
+       Offset 0 0 -0.3402
+      }
+     }
+     FireModes {
+      BaseFireMode "{B80A64F4A8EF8333}" : "{D5D52E848DBCAA53}Prefabs/Weapons/Core/Configs/FireModes/FireMode_Single.conf" {
+       RoundsPerMinute 800
+      }
+      BaseFireMode "{619AB45BF76565F3}" : "{A512F292D96BCB9F}Prefabs/Weapons/Core/Configs/FireModes/FireMode_Auto.conf" {
+       RoundsPerMinute 850
+      }
+     }
+     BulletInitSpeedCoef 0.93
+     "LEFT HAND TARGET" DeploymentPointInfo lht {
+      Offset 0 -0.0557 -0.1556
+     }
+     MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
+      PivotID "Magazine_Slot"
+      Offset 0 0.0025 0.0006
+     }
+     MagazineTemplate "{412045739F948823}Prefabs/Weapons/Magazines/Magazine_556x45_PMAG_Gen3_30rd_FDE_4B1T_M855A1_M856.et"
+    }
+    WeaponAnimationComponent "{60B4EA76EB15F6E0}" {
+     AnimGraph "{277300F5CAE03A67}Assets/Weapons/Rifle/Anims/Workspace/L403A1.agr"
+     AnimInstance "{8DE31B96967BD451}Assets/Weapons/Rifle/Anims/Workspace/L403A1_weapon.asi"
+     AnimInjection AnimationAttachmentInfo "{5534745C44D1EF5A}" {
+      AnimGraph "{277300F5CAE03A67}Assets/Weapons/Rifle/Anims/Workspace/L403A1.agr"
+      AnimInstance "{76BD8AA70E7AB0BD}Assets/Weapons/Rifle/Anims/Workspace/L403A1_player.asi"
+     }
+    }
+   }
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "L403A1 KS-1"
+    Description "The KAC KS Series of 5.56mm rifles by Knight’s Armament Company is a line of lightweight, reliable, and modular rifles designed for professional use. Built around a monolithic upper receiver and free-floating barrel, the KS series offers improved accuracy, reduced weight, and enhanced durability. These rifles feature ambidextrous controls and are optimized for both military and law enforcement applications."
+   }
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   ActionContexts {
+    UserActionContext "{5086F9ADF588DCA4}" {
+     Position PointInfo "{5086F9ADE97650DF}" {
+      Offset 0 0.0772 0.0587
+     }
+    }
+    UserActionContext "{5956E32BAAADE657}" {
+     Position PointInfo "{5956E329E6B11261}" {
+      Offset 0 0.0402 0.3235
+     }
+    }
+    UserActionContext "{5A1E58F7B04F9BE5}" {
+     Position PointInfo "{5A1E5C473E2F34A7}" {
+      Offset 0 -0.0493 0.0625
+     }
+    }
+    UserActionContext "{618A84270A2BFDC0}" {
+     Position PointInfo "{618A842792A66B70}" {
+      Offset 0 0.082 0.3799
+     }
+    }
+    UserActionContext "{60ECB1E9AB301676}" {
+     Position PointInfo "{60ECB1E9B0F14366}" {
+      Offset 0 0.0455 0.3755
+     }
+    }
+    UserActionContext "{61FECC7EE21E0318}" {
+     Position PointInfo "{61FECC7EE69BACE9}" {
+      Offset 0 0.1351 0.0799
+     }
+    }
+   }
+  }
+  WeaponGamepadEffectsManagerComponent "{61A2E5C3F4458F86}" {
+   "Default ADS Trigger effect" GamepadTriggerEffect "{61B129618F212411}" : "{506247CD50536A6A}Prefabs/Weapons/Core/Configs/TriggerEffects/ADS/TriggerEffect_ADSLight.conf" {
+   }
+   "Default Firing Trigger effect" GamepadTriggerEffect "{61D30BF7F81F8C61}" : "{F1C8849555C5B13D}Prefabs/Weapons/Core/Configs/TriggerEffects/Fire/TriggerEffect_FireHeavy.conf" {
+   }
+  }
+ }
+}

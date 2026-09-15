@@ -1,0 +1,84 @@
+Vehicle : "{1B8EB269EECA2DF9}Prefabs/Vehicles/Wheeled/LAV25/LAV25_base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{69DCF96EE4F2C2B3}" {
+     SourceMaterial "LAV25_body_exterior"
+     AssignedMaterial "{91348024F997C9F3}Assets/Vehicles/Wheeled/LAV25/Data/LAV25_body_exterior_US_Tan.emat"
+    }
+   }
+  }
+  SCR_BaseCompartmentManagerComponent "{20FB66C5DCB8DF72}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{50B8D5DDA17EB35D}" {
+    }
+   }
+   CompartmentSlots {
+    CargoCompartmentSlot Passenger_r03 {
+     PassengerPositionInfo EntitySlotInfo "{699366C6D607AD06}" {
+      Offset -0.0581 0 0
+     }
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "Tan LAV25"
+    m_Image "{CE9D21097A46C1B2}Assets/Images/Previews/ImagePreview_LAV_US.edds"
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 1800
+     }
+    }
+   }
+  }
+  VehicleWheeledSimulation "{731B26FCA2F19855}" {
+   Animation VehicleAnimation "{617CBBC422754474}" {
+    AnimVariables {
+     AnimationVariable "{69DCF96F67C78AA4}" {
+      VariableName "Yaw"
+      SignalName "AimTurnTurret"
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{1A2A2971605E421C}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Turret/LAV25_turret_US_Tan.et"
+    }
+    SCR_WheelSlotInfo Wheel_L01 {
+     Prefab "{40B2BC3CADEC8EC0}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/LAV25_wheel_left_02_tan.et"
+    }
+    SCR_WheelSlotInfo Wheel_L02 {
+     Prefab "{40B2BC3CADEC8EC0}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/LAV25_wheel_left_02_tan.et"
+    }
+    SCR_WheelSlotInfo Wheel_L03 {
+     Prefab "{40B2BC3CADEC8EC0}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/LAV25_wheel_left_02_tan.et"
+    }
+    SCR_WheelSlotInfo Wheel_L04 {
+     Prefab "{40B2BC3CADEC8EC0}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/LAV25_wheel_left_02_tan.et"
+    }
+    SCR_WheelSlotInfo Wheel_R01 {
+     Prefab "{FA285FD86145B7CD}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/LAV25_wheel_right_02_tan.et"
+    }
+    SCR_WheelSlotInfo Wheel_R02 {
+     Prefab "{FA285FD86145B7CD}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/LAV25_wheel_right_02_tan.et"
+    }
+    SCR_WheelSlotInfo Wheel_R03 {
+     Prefab "{FA285FD86145B7CD}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/LAV25_wheel_right_02_tan.et"
+    }
+    SCR_WheelSlotInfo Wheel_R04 {
+     Prefab "{FA285FD86145B7CD}Prefabs/Vehicles/Wheeled/LAV25/VehParts/Wheels/LAV25_wheel_right_02_tan.et"
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{6264BB08A7271AAD}" {
+    }
+   }
+  }
+ }
+}

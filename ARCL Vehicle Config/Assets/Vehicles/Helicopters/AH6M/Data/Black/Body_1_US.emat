@@ -1,0 +1,6 @@
+MatPBRBasic {
+ Cull none
+ DisableInteriorProbes 1
+ BCRMap "{A6494EC0A6F2326C}Assets/Images/AH6M_Tan_US_Supply.edds"
+ NMOMap "{0B0F16687E13A1F6}Assets/Vehicles/Helicopters/AH6M/Data/_Textures/Black/AH6M_Body_1_NMO.edds"
+}

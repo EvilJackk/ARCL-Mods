@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{01CB4C112B526174}Prefabs/Vehicles/Wheeled/M998/VehParts/Wheels/M998_wheel_01_Tan.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

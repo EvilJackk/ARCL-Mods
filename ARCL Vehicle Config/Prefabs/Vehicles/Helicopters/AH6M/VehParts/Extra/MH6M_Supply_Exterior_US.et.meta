@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{3A099ED99D0C5EAA}Prefabs/Vehicles/Helicopters/AH6M/VehParts/Extra/MH6M_Supply_Exterior_US.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

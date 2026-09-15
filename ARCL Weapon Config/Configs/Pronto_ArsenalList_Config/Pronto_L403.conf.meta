@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{1DEA9D87F56F382E}Configs/Pronto_ArsenalList_Config/Pronto_L403.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

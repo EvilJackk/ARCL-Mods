@@ -1,0 +1,34 @@
+FrameWidgetClass "{696F66F94419D36A}" : "{981ACF4F45EAECAE}UI/layouts/Menus/Inventory/InventoryMain.layout" {
+ {
+  OverlayWidgetClass "{60DCC8DF2787CD32}" {
+   Prefab "{60DCC8DF2787CD32}"
+   {
+    SizeLayoutWidgetClass "{589F049780D13CA5}" {
+     Prefab "{589F049780D13CA5}"
+     {
+      VerticalLayoutWidgetClass "{589F049780D13CA3}" {
+       Prefab "{589F049780D13CA3}"
+       {
+        OverlayWidgetClass "{589F0497F7A00346}" {
+         Prefab "{589F0497F7A00346}"
+         Slot LayoutSlot "{589F0497F7A00365}" {
+          Padding 0 0 0 0
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  FrameWidgetClass "{60DCC8DF2787CCB3}" {
+   Prefab "{60DCC8DF2787CCB3}"
+   Slot FrameWidgetSlot "{5645426F032126C2}" {
+    OffsetLeft 0
+    OffsetTop 0
+    OffsetRight 0
+    OffsetBottom 0
+   }
+  }
+ }
+}

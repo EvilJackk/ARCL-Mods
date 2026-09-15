@@ -1,0 +1,49 @@
+GenericEntity : "{2323F9E4C524F047}Prefabs/Compositions/Slotted/SlotFlatSmall/MortarPlacement_S_US_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  SCR_EditableEntityComponent "{E0DA2312FE8DF41B}" : "{B35795373E565FE7}Prefabs/Editor/Components/SlotFlatSmall_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{2A17C0599ECBDFE0}" {
+    Name "#AR-EditableEntity_MortarEmplacement_M252_S_US_Name"
+    m_Image "{9B7751C21D93058E}UI/Textures/EditorPreviews/Auto/Slotted/SlotFlatSmall/E_MortarPlacement_S_US.edds"
+    m_sFaction "USSR"
+    m_aAuthoredLabels {
+     5 90 27 28 902 280 281 913 10
+    }
+    m_aAutoLabels {
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{39F1AC88E63F5868}" {
+      m_BudgetType CAMPAIGN
+      m_Value 400
+     }
+     SCR_EntityBudgetValue "{F3490208EF98FEBA}" {
+      m_BudgetType RANK_SERGEANT
+      m_Value 3
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{7B8FCFB0A4E81A47}" {
+      m_BudgetType PROPS
+      m_Value 24
+     }
+     SCR_EntityBudgetValue "{90CF0A9FC329226A}" {
+      m_BudgetType SYSTEMS
+      m_Value 4
+     }
+    }
+   }
+   m_Flags 131395
+  }
+  SCR_EditorLinkComponent "{81380D2071E5F7A2}" {
+   m_bRandomizeVariants 0
+   m_aEntries {
+    SCR_EditorLinkEntry "{F9BC7CCACEFB2C03}" {
+     m_Prefab "{BE34F0B3A22481F5}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Foundation_Mortar_US.et"
+     m_vPosition 0 0.2 0
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+   }
+  }
+ }
+}

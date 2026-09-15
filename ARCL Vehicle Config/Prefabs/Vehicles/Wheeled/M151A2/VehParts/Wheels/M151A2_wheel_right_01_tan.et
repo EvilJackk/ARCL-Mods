@@ -1,0 +1,13 @@
+GenericEntity : "{7A6BD9176C77FB61}Prefabs/Vehicles/Wheeled/M151A2/VehParts/Wheels/M151A2_wheel_base.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{69DCF92C9FC0F80A}" {
+     SourceMaterial "M151A2_Wheels"
+     AssignedMaterial "{15EDF90033419870}Assets/Vehicles/Wheeled/M151A2/Data/M151A2_Wheels_tan.emat"
+    }
+   }
+  }
+ }
+}
